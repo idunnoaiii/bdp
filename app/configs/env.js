@@ -518,19 +518,3 @@ const EnvConfig = {
 };
 
 export default EnvConfig;
-
-/*
-
-_e = '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee'
-_a = '0xb2BBF8dF10eE63cDF9BaC60aA5cAdE3a34Fe8baC'
-_ra = '0xD38aD6bf470ABc9df1736A03f96b9c42BfB5BB17'
-_b = '0xe64f565276e14383163A026Ba391B7b6A23318A2'
-_rb = '0xfbC645ce5A49C2a7D209D1e328D2907B060ba9f2'
-_ex = '0xF53078c31AaCd953519b10b5390b7EdDd218795e'
-a = await TestToken.at(_a)
-b = await TestToken.at(_b)
-ra = await Reserve.at(_ra)
-rb = await Reserve.at(_rb)
-ex = await Exchange.at(_ex)
-
-*/
