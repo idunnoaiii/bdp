@@ -16,8 +16,7 @@ contract Reserve {
     address public supportToken;
     uint256 public buyRate = 10;
     uint256 public sellRate = 10;
-    address
-        private constant ETH_ADDRESS = 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee;
+    address private constant ETH_ADDRESS = 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee;
     bool public trade = true;
 
     function Reserve(address _supportToken) public {

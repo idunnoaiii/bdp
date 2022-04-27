@@ -3,10 +3,10 @@ const Reserve = artifacts.require('Reserve');
 const TestToken = artifacts.require('TestToken');
 
 let exchange;
-let reserveA;
-let reserveB;
-let tokenA;
-let tokenB;
+let ra;
+let rb;
+let a;
+let b;
 
 contract('Exchange Contract', (accounts) => {
   describe('Contructor', () => {
